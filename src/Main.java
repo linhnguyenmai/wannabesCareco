@@ -36,7 +36,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the student's management number: ");
+        System.out.println("Enter the student's management 123 number: ");
         String studentManagementNumber = sc.nextLine();
 
         System.out.println("Enter the student's coverage score: ");
