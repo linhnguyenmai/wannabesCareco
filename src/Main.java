@@ -36,8 +36,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the student's management number: ");
-        String studentManagementNumber = sc.nextLine();
+        //System.out.println("Enter the student's management number: ");
+        //String studentManagementNumber = sc.nextLine();
 
         System.out.println("Enter the student's coverage score: ");
         Integer coverageScore = sc.nextInt();
@@ -47,6 +47,9 @@ public class Main {
 
         System.out.println("Enter the student's age ");
         Integer age = sc.nextInt();
+
+        System.out.println("Enter the student's name ");
+        String studentName = sc.next();
 
         Student student = new Student(studentManagementNumber, coverageScore, age, className);
         student.checkAge();
