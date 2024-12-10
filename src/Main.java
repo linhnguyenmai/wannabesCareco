@@ -48,6 +48,9 @@ public class Main {
         System.out.println("Enter the student's age ");
         Integer age = sc.nextInt();
 
+        System.out.println("Enter the student's name ");
+        String studentName = sc.next();
+
         Student student = new Student(studentManagementNumber, coverageScore, age, className);
         student.checkAge();
         student.checkClass();
